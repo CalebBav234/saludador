@@ -33,10 +33,10 @@ export async function obtenerUbicacion(idioma = "es") {
     
     let data;
     try {
-      data = await fetchFromIpapi();
+       data = await fetchFromIpwhois();
     } catch {
-
-      data = await fetchFromIpwhois();
+        data = await fetchFromIpapi();
+     
     }
 
     const ciudad = data.city?.trim() || "—";
