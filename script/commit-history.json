@@ -1,0 +1,40 @@
+[
+  {
+    "sha": "567cb2b37888b18810f0d36c032ef2e3cb9ff7db",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-17T13:33:35.000Z",
+      "message": "Commit inicial: proyecto base con funcionalidad de suma funcionando",
+      "url": "https://github.com/CalebBav234/TDDLabSumadorMultiplicador/commit/567cb2b37888b18810f0d36c032ef2e3cb9ff7db"
+    },
+    "stats": {
+      "total": 55930,
+      "additions": 38554,
+      "deletions": 17376,
+      "date": "2025-08-17"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-17T14:05:18.000Z",
+      "message": "Soporte para números decimales (floats) en operaciones de suma y multiplicación",
+      "url": "https://github.com/CalebBav234/TDDLabSumadorMultiplicador/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 33,
+      "deletions": 12,
+      "date": "2025-08-17"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
