@@ -1,21 +1,19 @@
-<!DOCTYPE html>
-<html xml:lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Operaciones</title>
-  </head>
-  <body>
-    <h1>Operaciones</h1>
-    <form id="operacion-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" step="any"/>
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" step="any"/>
-      <button type="button" id="sumar-button">Sumar</button>
-      <button type="button" id="multiplicar-button">Multiplicar</button>
-    </form>
-    <div id="resultado-div"></div>
-
-    <script type="module" src="./src/presenter.js"></script>
-  </body>
-</html>
+<form id="formulario">
+  <input type="text" id="nombre" placeholder="Nombre" required />
+  <input type="number" id="edad" placeholder="Edad" required />
+  <select id="genero">
+    <option value="masculino">Masculino</option>
+    <option value="femenino">Femenino</option>
+  </select>
+  <select id="idioma">
+    <option value="es">Español</option>
+    <option value="en">English</option>
+    <option value="fr">Français</option>
+    <option value="de">Deutsch</option>
+    <option value="pt">Português</option>
+    <option value="it">Italiano</option>
+  </select>
+  <button type="submit">Saludar</button>
+</form>
+<p id="saludo"></p>
+<script type="module" src="./src/main.js"></script>
