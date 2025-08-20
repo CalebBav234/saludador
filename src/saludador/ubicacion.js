@@ -36,7 +36,6 @@ export async function obtenerUbicacion(idioma = "es") {
        data = await fetchFromIpwhois();
     } catch {
         data = await fetchFromIpapi();
-     
     }
 
     const ciudad = data.city?.trim() || "—";
