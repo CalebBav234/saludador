@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f93ba4191f058868b0f70e3ff1fb861650962a20",
     "author": "Caleb",
     "commit": {
       "date": "2025-08-17T14:05:18.000Z",
       "message": "Soporte para números decimales (floats) en operaciones de suma y multiplicación",
-      "url": "https://github.com/CalebBav234/TDDLabSumadorMultiplicador/commit/HEAD"
+      "url": "https://github.com/CalebBav234/TDDLabSumadorMultiplicador/commit/f93ba4191f058868b0f70e3ff1fb861650962a20"
     },
     "stats": {
       "total": 45,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Caleb",
+    "commit": {
+      "date": "2025-08-21T18:24:10.000Z",
+      "message": "Feat: se añadio 6 tests jest para automatizar pruebas",
+      "url": "https://github.com/CalebBav234/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 78,
+      "additions": 78,
+      "deletions": 0,
+      "date": "2025-08-21"
+    },
+    "coverage": 90.91,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
